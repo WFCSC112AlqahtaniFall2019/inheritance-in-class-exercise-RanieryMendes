@@ -9,6 +9,7 @@
 class Polygon {
 public:
     void set_values (int a, int b);
+
     virtual int area ();
 protected:
     int width, height;
